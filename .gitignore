@@ -1,0 +1,48 @@
+# ========================
+# VS Code Specific
+# ========================
+.vscode/
+*.code-workspace
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+.venv/
+Pipfile.lock
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.*
+
+# ========================
+# MacOS/Windows System Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Future Data Files (Optional)
+# ========================
+# If you add larger datasets later, uncomment these lines to ignore them:
+# *.csv
+# *.json
+# *.h5
+# *.pkl
